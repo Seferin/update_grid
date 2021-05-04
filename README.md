@@ -31,7 +31,7 @@ R library dependencies:
 Tested:
   R version 4.0.3 (2020-10-10)
   Platform: x86_64-w64-mingw32/x64 (64-bit)
-  Running under: Windows 10 x64 (build 14393)
+  Running under: Windows 10 x64
   curl_4.3
   jsonlite_1.7.2 
 
