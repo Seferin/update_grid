@@ -12,11 +12,15 @@ The update_grid functions:
 
   (1) Accepts a path_data parameter for a local folder location in the form 
   "./data/". The folder will be created if it does not exist.
+  
   (2) Check the figshare API for details of the latest GRID release.
+  
   (3) Check whether the target folder for a log file indicating the latest
   release.
+  
   (4.a) If it does, the function confirms that the latest release is already
   available and exits without further action.
+  
   (4.b) Otherwise, the latest release is downloaded and unzipped in the target
   folder; a log file record is created and the downloaded zip file is removed.
 
