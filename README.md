@@ -1,5 +1,6 @@
 update_grid
 
+
 Functions in R and Python to ensure that the latest release of GRID is available
 locally in a specified folder. GRID in this context refers to the Global
 Research Identifier Database from Digital Science. The homepage of GRID can be
@@ -28,6 +29,7 @@ The update_grid functions:
 R library dependencies:
   base, curl, jsonlite
 
+
 Tested:
   R version 4.0.3 (2020-10-10)
   Platform: x86_64-w64-mingw32/x64 (64-bit)
@@ -38,6 +40,7 @@ Tested:
 
 Python package dependencies:
   requests, json, pandas, zipfile, os
+
 
 Tested:
   Python 3.8.5
