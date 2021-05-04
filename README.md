@@ -1,4 +1,4 @@
-update_grid
+# update_grid
 
 
 Functions in R and Python to ensure that the latest release of GRID is available
@@ -9,7 +9,7 @@ found here:
   https://grid.ac/
 
   
-The update_grid functions:
+## The update_grid functions:
 
   (1) Accepts a path_data parameter for a local folder location in the form 
   "./data/". The folder will be created if it does not exist.
@@ -26,11 +26,11 @@ The update_grid functions:
   folder; a log file record is created and the downloaded zip file is removed.
 
 
-R library dependencies:
+## R library dependencies:
   base, curl, jsonlite
 
 
-Tested:
+### Tested:
   R version 4.0.3 (2020-10-10)
   Platform: x86_64-w64-mingw32/x64 (64-bit)
   Running under: Windows 10 x64
@@ -38,11 +38,11 @@ Tested:
   jsonlite_1.7.2 
 
 
-Python package dependencies:
+## Python package dependencies:
   requests, json, pandas, zipfile, os
 
 
-Tested:
+### Tested:
   Python 3.8.5
   requests 2.24.0
   pandas 1.1.3
