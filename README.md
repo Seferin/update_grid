@@ -9,6 +9,7 @@ found here:
 
   
 The update_grid functions:
+
   (1) Accepts a path_data parameter for a local folder location in the form 
   "./data/". The folder will be created if it does not exist.
   (2) Check the figshare API for details of the latest GRID release.
