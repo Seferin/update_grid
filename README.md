@@ -14,9 +14,9 @@ found here:
   (1) Accepts a path_data parameter for a local folder location in the form 
   "./data/". The folder will be created if it does not exist.
   
-  (2) Check the figshare API for details of the latest GRID release.
+  (2) Checks the figshare API for details of the latest GRID release.
   
-  (3) Check whether the target folder for a log file indicating the latest
+  (3) Checks whether the target folder has a log file indicating the latest
   release.
   
   (4.a) If it does, the function confirms that the latest release is already
